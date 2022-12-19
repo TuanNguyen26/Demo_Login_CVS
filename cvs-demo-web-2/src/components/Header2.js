@@ -7,9 +7,10 @@ import { GoogleLogin, GoogleLogout } from "react-google-login";
 import { DownOutlined, SmileOutlined, UserOutlined } from "@ant-design/icons";
 import { gapi } from "gapi-script";
 import { navigate } from "gatsby";
+import axios from "axios";
 const Header2 = ({ isloginDrawer, setISLoginDrawer }) => {
   const [visible, setVisible] = useState(false);
-  const [dataLogin, setDataLogin] = useState(localStorage.getItem("email"));
+  const [dataLogin, setDataLogin] = useState(localStorage.getItem("profileUs"));
   const [stateLogin, setStateLogin] = useState(true);
 
   console.log("dataLogin", dataLogin);
@@ -22,12 +23,36 @@ const Header2 = ({ isloginDrawer, setISLoginDrawer }) => {
   };
 
   const onSuccess = success => {
+    // console.log("login success", success.profileObj.givenName);
+    // const dataUser = success.profileObj;
+    // localStorage.setItem("profileUs", JSON.stringify(dataUser));
+    // setDataLogin(success.profileObj);
+    // setISLoginDrawer(false);
+    // setStateLogin(false);
+
     console.log("login success", success.profileObj.givenName);
     const dataUser = success.profileObj;
-    localStorage.setItem("email", JSON.stringify(dataUser));
+
+    const data = {
+      Email: dataUser.email,
+      FamilyName: dataUser.familyName,
+      GivenName: dataUser.givenName,
+      GoogleId: dataUser.googleId,
+      ImageUrl: dataUser.imageUrl,
+      Name: dataUser.name
+    };
+    axios
+      .post(
+        "https://sheet.best/api/sheets/ca7a74c7-8337-4ca4-a71e-81e0a8832380",
+        data
+      )
+      .then(response => {
+        console.log({ response });
+      });
+    localStorage.setItem("profileUs", JSON.stringify(dataUser));
+
     setDataLogin(success.profileObj);
     setISLoginDrawer(false);
-    setStateLogin(false);
   };
 
   const onFail = fail => {
@@ -45,7 +70,7 @@ const Header2 = ({ isloginDrawer, setISLoginDrawer }) => {
 
   const onLogout = out => {
     console.log("logout success", out);
-    localStorage.removeItem("email");
+    localStorage.removeItem("profileUs");
     setDataLogin(null);
     setStateLogin(true);
   };
