@@ -8,6 +8,7 @@ import { DownOutlined, SmileOutlined, UserOutlined } from "@ant-design/icons";
 import { gapi } from "gapi-script";
 import { navigate } from "gatsby";
 import axios from "axios";
+
 const Header2 = ({ isloginDrawer, setISLoginDrawer }) => {
   const [visible, setVisible] = useState(false);
   const [dataLogin, setDataLogin] = useState(localStorage.getItem("profileUs"));
@@ -23,13 +24,6 @@ const Header2 = ({ isloginDrawer, setISLoginDrawer }) => {
   };
 
   const onSuccess = success => {
-    // console.log("login success", success.profileObj.givenName);
-    // const dataUser = success.profileObj;
-    // localStorage.setItem("profileUs", JSON.stringify(dataUser));
-    // setDataLogin(success.profileObj);
-    // setISLoginDrawer(false);
-    // setStateLogin(false);
-
     console.log("login success", success.profileObj.givenName);
     const dataUser = success.profileObj;
 
@@ -73,6 +67,7 @@ const Header2 = ({ isloginDrawer, setISLoginDrawer }) => {
     localStorage.removeItem("profileUs");
     setDataLogin(null);
     setStateLogin(true);
+    navigate("/app");
   };
 
   return (
