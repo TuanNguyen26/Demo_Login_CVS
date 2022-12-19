@@ -1,0 +1,127 @@
+@contact-form: contact-form;
+
+.form-background {
+  background-image: url("/contact_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.@{contact-form} {
+  width: 100%;
+  // height: 100vh;
+  // height: 760px;
+  position: relative;
+  background-color: #ffffff;
+  // background-image: url("/");
+  overflow: hidden;
+  min-height: 740px;
+  & &-page {
+    padding: 1px 0 0;
+    padding: 0 24px;
+  }
+
+  &-title {
+    font-size: 48px;
+    line-height: 1.5;
+    color: #5f9bf1;
+    margin-bottom: 8px;
+
+    &-wrapper {
+      // width: 50%;
+      // position: relative;
+      // margin-right: 0;
+      // margin-left: auto;
+      // padding: 40px 32px;
+    }
+  }
+
+  .underline {
+    width: 70px;
+    height: 4px;
+    background: #ec1c2a;
+    margin: 32px auto;
+  }
+  &-content {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "SFProDisplay";
+    text-align: center;
+  }
+  &-description {
+    max-width: 555px;
+    margin: 0 auto 36px;
+    text-align: center;
+  }
+
+  &-image {
+    overflow: hidden;
+    width: 50%;
+    // max-width: 1000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    img {
+      transform: translateY(-100px);
+    }
+  }
+
+  .ant-form-item {
+    margin: 0;
+  }
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    height: 48px;
+  }
+  .ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+  .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    line-height: 46px;
+  }
+
+  input {
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{contact-form} {
+    min-height: 500px;
+    height: auto;
+
+    & &-page.home-page {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    .contact-form-image img {
+      transform: none;
+    }
+
+    &-title-wrapper {
+      text-align: center;
+      position: static;
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    &-title {
+      font-size: 32px;
+    }
+
+    &-explain {
+      font-size: 18px;
+    }
+
+    &-content {
+    }
+
+    &-image {
+      position: static;
+      width: 100%;
+      top: 0;
+      right: 0;
+      margin: 32px 0;
+    }
+  }
+}

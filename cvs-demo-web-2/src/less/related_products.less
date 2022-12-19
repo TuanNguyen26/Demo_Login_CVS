@@ -1,0 +1,129 @@
+@related-products: related-products;
+
+.@{related-products}-wrapper {
+  min-height: 600px;
+  overflow: hidden;
+  background: #f5f6f9;
+
+  .ant-card-body {
+    height: 180px;
+    padding: 16px;
+    background: #fff;
+  }
+
+  .ant-card-hoverable {
+    // cursor: default;
+  }
+
+  .ant-card-meta-description {
+    .description {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-size: 16px;
+      color: #000;
+    }
+    .view-detail-button {
+      color: #ec1c2a;
+      font-weight: 500;
+      position: absolute;
+      bottom: 24px;
+    }
+  }
+
+  .ant-card-meta-title {
+    white-space: normal;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 24px;
+    font-family: "SFProDisplay";
+
+    small {
+      color: rgba(0, 0, 0, 0.34);
+      font-size: 12px;
+      font-weight: 400;
+    }
+    p {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+
+  .@{related-products} {
+    height: 100%;
+    padding: 80px 24px;
+
+    img {
+      width: 100%;
+    }
+
+    ul {
+      margin: 16px;
+      > li {
+        margin-left: 28px;
+      }
+    }
+
+    > .title-wrapper {
+      text-align: center;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 38px;
+      margin-bottom: 60px;
+      font-family: "SFProDisplay";
+    }
+
+    &-block {
+      padding: 0 12px;
+      display: inline-block;
+      text-align: left;
+      min-height: 200px;
+      margin-bottom: 24px;
+      img {
+        width: 100%;
+      }
+
+      &-wrapper {
+        position: relative;
+        height: 100%;
+        top: 25%;
+        padding: 20px 0;
+      }
+
+      &.queue-anim-leaving {
+        position: relative !important;
+      }
+
+      &-icon {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+      }
+
+      &-title {
+        line-height: 22px;
+        margin: 10px auto;
+        font-size: 18px;
+      }
+      &.block-2 {
+        .ant-card-body {
+          height: 228px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{related-products}-wrapper {
+    min-height: 880px;
+  }
+}

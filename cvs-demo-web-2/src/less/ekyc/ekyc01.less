@@ -1,0 +1,138 @@
+@ekyc01: ekyc01;
+
+.@{ekyc01}-wrapper {
+  min-height: 700px;
+  overflow: hidden;
+
+  .@{ekyc01} {
+    height: 100%;
+    padding: 80px 24px;
+
+    .description {
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .title-wrapper {
+      // text-align: left;
+      font-size: 32px;
+      font-weight: 600;
+      // max-width: 353px;
+      line-height: 44px;
+      font-family: "SFProDisplay";
+    }
+
+    .explain-wrapper {
+      width: 555px;
+    }
+
+    &-block {
+      padding: 0 24px;
+      display: inline-block;
+      text-align: center;
+      min-height: 224px;
+      margin-bottom: 24px;
+      img {
+        width: 100%;
+      }
+      &-item {
+        display: flex;
+        // min-height: 130px;
+        margin: 24px 0;
+        &-left {
+          width: 32px;
+        }
+        &-right {
+          // width: 284px;
+          text-align: left;
+          margin-left: 12px;
+          position: relative;
+        }
+      }
+
+      &-wrapper {
+        position: relative;
+      }
+
+      &-icon {
+        width: 74px;
+        height: 74px;
+        // margin: auto;
+      }
+
+      &-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #000;
+        margin-bottom: 12px;
+        font-family: "SFProDisplay";
+      }
+      &-button {
+        padding-left: 0;
+        position: absolute;
+        bottom: 0;
+      }
+      &-description {
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        position: relative;
+        min-height: 340px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{ekyc01}-wrapper {
+    min-height: 880px;
+
+    .ekyc01 {
+      .description {
+        display: block;
+      }
+      .explain-wrapper {
+        margin-top: 32px;
+        width: 100%;
+      }
+    }
+    .ekyc01-block {
+      padding: 0;
+
+      &-button {
+        padding-left: 0;
+        position: unset;
+        margin-top: 16px;
+        // bottom: 0;
+      }
+      &-image {
+        text-align: center;
+      }
+    }
+    .ekyc01-block-item-right {
+      flex: 1;
+      width: auto;
+    }
+    .ekyc01-block-item-left {
+      // width: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .@{ekyc01}-wrapper {
+    // min-height: 880px;
+    // .ekyc01-block {
+    //   padding: 0;
+    // }
+    .ekyc01-block-item-right {
+      width: 200px;
+    }
+    .ekyc01-block-item-left {
+      width: 60px;
+    }
+  }
+}

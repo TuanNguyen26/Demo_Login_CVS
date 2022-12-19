@@ -1,0 +1,396 @@
+{
+  "meta.description": "Computer Vision Vietnam - Công nghệ Computer Vision cho các doanh nghiệp",
+  "common": {
+    "button.trial": "Dùng thử",
+    "button.contact": "Liên hệ",
+    "button.more": "Tìm hiểu thêm",
+    "button.see_all": "XEM TẤT CẢ",
+    "button.send": "GỬI",
+    "contact.text": "Hãy liên hệ với chúng tôi để được tư vấn và hỗ trợ",
+    "contact.partner": "Trở thành đối tác của CVS",
+    "text.download": "Tải về",
+    "text.technology": "Công nghệ chúng tôi sử dụng",
+    "address1": "14 Pháo Đài Láng, P. Láng Thượng, Q. Đống Đa, Hà Nội",
+    "address2": "18H Cộng Hòa, Phường 4, Q. Tân Bình, TP. Hồ Chí Minh",
+    "post.featured": "Bài viết nổi bật",
+    "post.recent": "Bài viết gần đây"
+  },
+  "header": {
+    "home": "Trang chủ",
+    "solution": {
+      "title": "Giải pháp",
+      "child0": "Nhận diện khuôn mặt",
+      "child1": "OCR",
+      "child2": "AI Camera",
+      "child3": "Web & Mobile Development"
+    },
+    "product": {
+      "title": "Sản phẩm",
+      "child0": "Định danh khách hàng",
+      "child1": "Nhận dạng giấy tờ tuỳ thân",
+      "child2": "Nhận dạng biển số xe",
+      "child3": "Xác thực khuôn mặt",
+      "child4": "Phân tích khuôn mặt"
+    },
+    "resource": {
+      "title": "Bài viết",
+      "child0": "Blog"
+    },
+    "developer": {
+      "title": "Developers",
+      "child": "API documentation"
+    },
+    "company": {
+      "title": "Company",
+      "child0": "Liên hệ",
+      "child1": "Blogs"
+    },
+    "sign_in": "Đăng nhập"
+  },
+  "footer": {
+    "address1": "Văn phòng Hà Nội:",
+    "address2": "Văn phòng Hồ Chí Minh:",
+    "copyright": "Copyright ©2020 by Computer Vision Vietnam. All Rights Reserved"
+  },
+  "home": {
+    "banner": "Ứng dụng các kỹ thuật Machine Learning trong lĩnh vực Computer Vision để cung cấp các giải pháp tự động hóa cho các doanh nghiệp với chi phí tối ưu",
+    "content0": {
+      "title": "Các giải pháp của chúng tôi",
+      "explain": "Ứng dụng các thuật toán và công nghệ Machine Learning sử dụng kỹ thuật Deep Learning trong lĩnh vực Computer Vision",
+      "child0_title": "Nhận diện khuôn mặt",
+      "child0_desc": "Tối ưu các mô hình trí tuệ nhân tạo để cung cấp các giải pháp như nhận diện khuôn mặt, phân tích độ tuổi, phân tích cảm xúc cho một hoặc nhiều khuôn mặt trong các ảnh hoặc video.",
+      "child1_title": "Nhận diện ký tự - OCR",
+      "child1_desc": "Tự động nhận diện văn bản từ các ảnh trong nhiều loại tài liệu khác nhau, cho phép bạn xử lý hàng triệu tài liệu một cách nhanh chóng và tự động hoá quy trình làm việc.",
+      "child2_title": "AI Camera",
+      "child2_desc": "Chúng tôi nghiên cứu giải pháp camera nhận diện khuôn mặt thông minh, hiệu suất cao.",
+      "child3_title": "Phát triển web & mobile apps",
+      "child3_desc": "Cung cấp giải pháp tối ưu, giúp nhanh chóng hiện thực hoá các ý tưởng kinh doanh hoặc thúc đẩy quá trình chuyển đổi số của các doanh nghiệp."
+    },
+    "content1": {
+      "title": "Các sản phẩm của chúng tôi",
+      "explain": "Đội ngũ giàu kinh nghiệm và đam mê của chúng tôi liên tục nghiên cứu các giải pháp ứng dụng vào thực tế để giúp tăng tốc quá trình chuyển đổi số và tự động hoá quy trình làm việc của các doanh nghiệp",
+      "child0_title": "Định danh khách hàng - eKYC",
+      "child0_desc": "Kết hợp công nghệ OCR và nhận diện khuôn mặt để tự động xác thực khuôn mặt với ảnh trên giấy tờ tuỳ thân, cùng với các kỹ thuật chống giả mạo để cung cấp một giải pháp xác minh danh tính kỹ thuật số hoàn chỉnh.",
+      "child1_title": "Nhận dạng giấy tờ tùy thân",
+      "child1_desc": "Ứng dụng công nghệ OCR vào nhận diện và trích xuất thông tin từ nhiều loại giấy tờ tuỳ thân cho phép doanh nghiệp tự động xử lý hàng triệu tài liệu một cách nhanh chóng và với độ chính xác cao.",
+      "child2_title": "Nhận dạng biển số xe",
+      "child2_desc": "Ứng dụng công nghệ OCR để nhận diện biển số xe, áp dụng vào các giải pháp thu phí tự động, quản lý bãi đỗ xe.",
+      "child3_title": "Tìm kiếm khuôn mặt",
+      "child3_desc": "Ứng dụng công nghệ nhận dạng khuôn mặt và tìm kiếm khuôn mặt tốc độ cao cùng với các kỹ thuật chống giả mạo để cung cấp giải pháp xác thực bằng khuôn mặt có độ tin cậy cao.",
+      "child4_title": "Phân tích khuôn mặt",
+      "child4_desc": "Tự động nhận dạng các đặc điểm của khuôn mặt như cảm xúc, độ tuổi, giới tính và các điểm đặc trưng trên khuôn mặt.",
+      "child5_title": "So sánh khuôn mặt",
+      "child5_desc": "So sánh hai khuôn mặt và trả về kết quả có phải cùng một người hay không.",
+      "child6_title": "Phân cụm khuôn mặt",
+      "child6_desc": "Nhận dạng các khuôn mặt giống nhau trong một tập ảnh.",
+      "child7_title": "Phát triển Web & Mobile Apps",
+      "child7_desc": "Sử dụng quy trình Agile và các nền tảng công nghệ mới nhất để nhanh chóng hiện thực hoá ý tưởng kinh doanh và chuyển đổi số của các doanh nghiệp với thời gian và chi phí tối ưu.",
+      "child8_title": "Và nhiều sản phẩm khác",
+      "child8_desc": "Chúng tôi không ngừng nghiên cứu các sản phẩm mới trong lĩnh vực AI và Big Data. Hãy theo dõi nếu bạn quan tâm tới các sản phẩm của chúng tôi."
+    },
+    "feature1": {
+      "title": "Tích hợp nhanh chóng, dễ dàng",
+      "explain": "CVS Vision API cung cấp khả năng tích hợp nhanh chóng, linh hoạt theo chuẩn Restful APIs trên cả hai nền tảng Cloud và On-Premise, phù hợp với nhu cầu của tất cả các doanh nghiệp, từ các startups, doanh nghiệp vừa và nhỏ đến các doanh nghiệp lớn.",
+      "child_title": "Cloud APIs - Dịch vụ tích hợp đám mây",
+      "child_desc0": "Tích hợp một cách nhanh chóng với dịch vụ của chúng tôi và cung cấp đến khách hàng của bạn trong vòng chỉ vài giờ đồng hồ.",
+      "child_desc1": "Dùng bao nhiêu trả tiền bấy nhiêu, giúp chi phí linh hoạt và tối ưu tuỳ theo nhu cầu sử dụng và tình hình kinh doanh của bạn.",
+      "child_desc2": "Luôn luôn được sử dụng các công nghệ mới nhất của chúng tôi."
+    },
+    "feature2": {
+      "child_title": "On-Premise - Cài đặt máy chủ khách hàng",
+      "child_desc0": "Tất cả dữ liệu được xử lý bên trong trung tâm dữ liệu của bạn. Doanh nghiệp của bạn có toàn quyền kiểm soát tất cả các dữ liệu đầu vào và đầu ra.",
+      "child_desc1": "Chúng tôi tùy chỉnh và triển khai các quy trình và hệ thống để tuân thủ các tiêu chuẩn nội bộ doanh nghiệp và luật pháp địa phương về bảo mật dữ liệu và bảo vệ quyền riêng tư."
+    },
+    "content10": {
+      "title": "Được tin cậy bởi các khách hàng đến từ nhiều quốc gia",
+      "explain": "Chúng tôi đã và đang giúp các doanh nghiệp đến từ nhiều quốc gia, hoạt động trong nhiều lĩnh vực khác nhau như tài chính, nhân sự, bán lẻ, IoT... trong việc hiện thực hoá các ý tưởng kinh doanh và đẩy nhanh quá trình chuyển đổi số của họ với quy trình và chi phí tối ưu."
+    },
+    "feature45": {
+      "title": "Báo chí viết về CVS"
+    }
+  },
+  "face": {
+    "banner.title": "Nhận dạng khuôn mặt",
+    "banner.explain": "Hệ thống nhận dạng khuôn mặt là một ứng dụng máy tính tự động xác định hoặc nhận dạng một người nào đó từ một bức hình ảnh kỹ thuật số hoặc một khung hình video từ một nguồn video. Một trong những cách để thực hiện điều này là so sánh các đặc điểm khuôn mặt chọn trước từ hình ảnh và một cơ sở dữ liệu về khuôn mặt.",
+    "content1": {
+      "title": "Các sản phẩm của chúng tôi",
+      "explain": "Đội ngũ giàu kinh nghiệm và đam mê của chúng tôi liên tục nghiên cứu các giải pháp ứng dụng vào thực tế để giúp tăng tốc quá trình chuyển đổi số và tự động hoá quy trình làm việc của các doanh nghiệp",
+      "child0_title": "Định danh khách hàng - eKYC",
+      "child0_desc": "Kết hợp công nghệ OCR và nhận diện khuôn mặt để tự động xác thực khuôn mặt với ảnh trên giấy tờ tuỳ thân, cùng với các kỹ thuật chống giả mạo để cung cấp một giải pháp xác minh danh tính kỹ thuật số hoàn chỉnh.",
+      "child1_title": "Tìm kiếm khuôn mặt",
+      "child1_desc": "Ứng dụng công nghệ nhận dạng khuôn mặt và tìm kiếm khuôn mặt tốc độ cao cùng với các kỹ thuật chống giả mạo để cung cấp giải pháp xác thực bằng khuôn mặt có độ tin cậy cao.",
+      "child2_title": "So sánh khuôn mặt",
+      "child2_desc": "So sánh hai khuôn mặt và trả về kết quả có phải cùng một người hay không.",
+      "child3_title": "Phân cụm khuôn mặt",
+      "child3_desc": "Nhận dạng các khuôn mặt giống nhau trong một tập ảnh.",
+      "child4_title": "Phân tích cảm xúc",
+      "child4_desc": "Nhận diện năm loại cảm xúc trên khuôn mặt, bao gồm: hạnh phúc, giận dữ, bình thường, buồn hoặc lo lắng, ngạc nhiên.",
+      "child5_title": "Xác định độ tuổi",
+      "child5_desc": "Xác định độ tuổi dựa vào phân tích khuôn mặt.",
+      "child6_title": "Xác định giới tính",
+      "child6_desc": "Xác định giới tính dựa vào phân tích khuôn mặt.",
+      "child7_title": "Chấm điểm thẩm mỹ",
+      "child7_desc": "Phân tích và chấm điểm số thẩm mỹ xác định mức độ đẹp của một ảnh.",
+      "child8_title": "Facial Landmarks",
+      "child8_desc": "Xác định các vị trí đặc trưng của khuôn mặt như tóc, mắt, mũi, cằm."
+    },
+    "feature4": {
+      "title": "Các ứng dụng thực tế",
+      "explain": "Với các công nghệ AI mới nhất, CVS Nhận dạng khuôn mặt APIs giúp tăng tốc quy trình định danh khách hàng cùng giải pháp tự động hóa với chi phí tối ưu.",
+      "child0_title": "Định danh điện tử - eKYC",
+      "child0_desc": "Xác minh danh tính kỹ thuật số, được thực hiện hoàn toàn trựctuyến.",
+      "child1_title": "Xác thực bằng khuôn mặt",
+      "child1_desc": "Xác thực tiện lợi, nhanh chóng, độ bảo mật cao. Bạn không còn cần phải nhớ hàng chục mật khẩu khác nhau.",
+      "child2_title": "Chấm công bằng khuôn mặt",
+      "child2_desc": "Giải pháp chấm công tiên tiến, thuận lợi.",
+      "child3_title": "Điểm danh học sinh, sinh viên",
+      "child3_desc": "Giải pháp điểm danh, theo dõi sự có mặt của học sinh, sinh viên hoàn toàn tự động.",
+      "child4_title": "Quản lý kho ảnh thông minh",
+      "child4_desc": "Kết hợp phân cụm khuôn mặt, phân tích cảm xúc, chấm điểm thẩm mỹ bạn sẽ có một ứng dụng quản lý kho ảnh với nhiều tính năng ưu việt.",
+      "child5_title": "Các ứng dụng làm đẹp",
+      "child5_desc": "Sử dụng Face Landmarks để xác định các điểm đặc trưng trên khuôn mặt sau đó xây dựng các tính năng làm đẹp mà bạn mong muốn. Ví dụ: Ứng dụng cho thử trước màu tóc."
+    }
+  },
+  "ocr": {
+    "banner.title": "Nhận dạng ký tự - OCR",
+    "banner.explain": "Giải pháp nhận dạng và trích xuất chính xác nội dung văn bản từ hình ảnh, giúp doanh nghiệp giải quyết các bài toán số hoá hàng triệu tài liệu một các nhanh chóng và tự động hóa quy trình trong thời đại công nghệ số. Giải pháp OCR của CVS dễ dàng tùy chỉnh và tích hợp, thuận tiện cho doanh nghiệp ứng dụng trong nhiều lĩnh vực.",
+    "feature1": {
+      "title": "Các sản phẩm của chúng tôi",
+      "child_title": "Nhận dạng giấy tờ tùy thân",
+      "child_desc0": "Giải pháp nhận dạng và tự động trích xuất thông tin từ nhiều loại giấy tờ tùy thân với tốc độ nhanh, độ chính xác cao và chi phí tối ưu, giúp các doanh nghiệp xử lý nhanh chóng hàng triệu tài liệu và mang đến sự hài lòng cho khách hàng.",
+      "child_desc1": "Trình đọc OCR của chúng tôi có khả năng trích xuất chính xác các thông tin từ nhiều loại giấy tờ tùy thân khác nhau như: Căn cước công dân, Chứng minh nhân dân loại mới, Chứng minh nhân dân loại cũ, Hộ chiếu, Giấy phép lái xe. Ngoài các loại giấy tờ được hỗ trợ sẵn, chúng tôi có thể huấn luyện AI của chúng tôi nhận dạng các loại giấy tờ và tài liệu khác của bạn."
+    },
+    "feature3": {
+      "child_title": "Nhận dạng văn bản scan",
+      "child_desc0": "Giải pháp nhận dạng văn bản scan của chúng tôi nhận đạng chính xác các tài liệu văn bản với tốc độ cực nhanh và số lượng tài liệu lớn.",
+      "child_desc1": "Giải pháp của chúng tôi cho phép khôi phục đúng định dạng và bố cục văn bản trong tài liệu."
+    },
+    "feature2": {
+      "child_title": "Nhận dạng biển số xe",
+      "child_desc0": "Sản phẩm của chúng tôi có khả năng nhận diện chính xác biển số xe của nhiều loại xe, được áp dụng vào các giải pháp thu phí tự động, quản lý bãi đỗ xe."
+    },
+    "feature4": {
+      "title": "Các ứng dụng thực tế",
+      "explain": "Với các công nghệ AI mới nhất, CVS Nhận dạng ký tự quang học giúp tăng tốc quy trình định danh khách hàng cùng giải pháp tự động hóa với chi phí tối ưu.",
+      "child0_title": "Định danh điện tử - eKYC",
+      "child0_desc": "Kết hợp công nghệ OCR và nhận diện khuôn mặt để tự động xác thực khuôn mặt với ảnh trên giấy tờ tuỳ thân, cùng với các kỹ thuật chống giả mạo để cung cấp một giải pháp xác minh danh tính kỹ thuật số hoàn chỉnh.",
+      "child1_title": "Trích xuất thông tin Giấy tờ tuỳ thân",
+      "child1_desc": "Ứng dụng công nghệ OCR vào nhận diện và trích xuất thông tin từ nhiều loại giấy tờ tuỳ thân cho phép doanh nghiệp tự động xử lý hàng triệu tài liệu một cách nhanh chóng và với độ chính xác cao.",
+      "child2_title": "Thu phí tự động",
+      "child2_desc": "Các phương tiện không cần dừng khi thu qua trạm thu phí, giúp hạn chế giấy tờ và mang lại sự tiện lợi cho các tài xế.",
+      "child3_title": "Quản lý bãi đỗ",
+      "child3_desc": "Tự động tính phí đỗ xe, kết hợp với công nghệ nhận diện khuôn mặt để ngăn chặn các hành vi trộm cắp và loại bỏ sự bất tiện của vé gửi xe."
+    }
+  },
+  "web": {
+    "banner.title": "Phát triển web & ứng dụng di động",
+    "banner.explain0": "CVS đã giúp các công ty thuộc mọi quy mô - từ các công ty khởi nghiệp đến các doanh nghiệp hàng đầu - thiết kế và phát triển các ứng dụng web và các ứng dụng di động làm thay đổi doanh nghiệp của họ.",
+    "banner.explain1": "Đội ngũ các nhà thiết kế, kỹ sư và chuyên gia tư vấn đặc biệt tài năng của chúng tôi, say mê làm việc với các công nghệ mới nhất để cung cấp các sản phẩm từ nhỏ đến quy mô lớn.",
+    "feature1": {
+      "title": "Dịch vụ của chúng tôi",
+      "child_title": "ỨNG DỤNG DI ĐỘNG",
+      "child_explain": "Quy trình phát triển ứng dụng di động độc đáo của chúng tôi giúp nhanh chóng xây dựng các ứng dụng đa nền tảng với chi phí thấp.",
+      "child_desc0": "Chúng tôi xây dựng các ứng dụng di động bằng React Native, một nền tảng mang tính cách mạng được phát triển bởi Facebook vào năm 2015. React Native cho phép chúng tôi xây dựng các ứng dụng iOS và Android chỉ bằng một cơ sở mã (thay vì hai). Điều này giúp giảm thời gian và chi phí để xây dựng các ứng dụng đa nền tảng hơn 50%, mà không làm giảm chất lượng."
+    },
+    "feature2": {
+      "child_title": "ỨNG DỤNG WEB",
+      "child_explain": "Chúng tôi xây dựng các ứng dụng web hiện đại với tất cả các quy mô bằng các công nghệ mới nhất.",
+      "child_desc0": "Đội ngũ giàu kinh nghiệm của chúng tôi có hơn 10 năm kinh nghiệm phát triển ứng dụng web. Dù ý tưởng của bạn là gì, chúng tôi có thể xây dựng nó, đúng thời gian và ngân sách."
+    },
+    "feature3": {
+      "child_title": "THIẾT KẾ UI/UX",
+      "child_explain": "Chúng tôi thiết kế và xây dựng các ứng dụng đẹp mà người dùng yêu thích.",
+      "child_desc0": "Quy trình thiết kế chi tiết, đã được chứng minh, của chúng tôi đảm bảo rằng chúng tôi xây dựng các tính năng cho ứng dụng đúng với mong muốn của bạn."
+    },
+    "feature4": {
+      "child_title": "AGILE METHODOLOGY",
+      "child_explain": "Phương pháp phát triển của chúng tôi đảm bảo không chỉ nhanh chóng cho ra đời sản phẩm mà còn đảm bảo khả năng đáp ứng tăng trưởng nhanh chóng trong kinh doanh.",
+      "child_desc0": "Agile là một cách tiếp cận lặp đi lặp lại theo thời gian để phân phối phần mềm, xây dựng phần mềm hoàn thiện dần từ khi bắt đầu dự án, thay vì cố gắng phân phối tất cả cùng một lúc. Nó được thiết kế đặc biệt để đáp ứng nhu cầu của môi trường thay đổi nhanh chóng."
+    },
+    "feature5": {
+      "title": "Sản phẩm của chúng tôi",
+      "child0_title": "Hogar Oficina",
+      "child0_desc0": "Hệ thống quản lý văn phòng, cuộc họp",
+      "child0_desc1": "- Quản lý không gian phòng họp",
+      "child0_desc2": "- Quản lý cuộc họp",
+      "child0_desc3": "- Quản lý thiết bị",
+      "child1_title": "RiseSet Journal",
+      "child1_desc0": "- Lưu giữ các khoảng khắc Bình minh và Hoàng hôn",
+      "child1_desc1": "- Thống kê Bình minh và Hoàng hôn của bạn",
+      "child1_desc2": "- Hiệu ứng mặt trời độc đáo được hỗ trợ bởi trí tuệ nhân tạo",
+      "child1_desc3": "- Chia sẻ ảnh với chữ ký độc đáo của riêng bạn in trên ảnh",
+      "child3_title": "Hệ thống quản lý dự báo công suất điện mặt trời của công ty ATS.",
+      "child3_desc0": "- Quản lý người dùng",
+      "child3_desc1": "- Quản lý nhà máy điện mặt trời",
+      "child3_desc2": "- Quản lý biến tần",
+      "child3_desc3": "- Dự báo công suất điện mặt trời",
+      "child7_title": "CIAS iReport",
+      "child7_desc0": "Hệ thống báo cáo doanh thu hàng ngày cho công ty CIAS.",
+      "child7_desc1": "- Hệ thống báo cáo đa dạng, biểu đồ trực quan",
+      "child7_desc2": "- Xuất báo cáo ra excel",
+      "child7_desc3": "- Quản lý người dùng, phân quyền RBAC đa phạm vi"
+    }
+  },
+  "ekyc": {
+    "banner.title": "eKYC - Định danh khách hàng",
+    "banner.explain0": "eKYC là phương thức định danh khách hàng trực tuyến, không cần gặp mặt trực tiếp.",
+    "banner.explain1": "eKYC giúp giảm nguồn nhân lực, mang đến trải nghiệm tốt hơn cho khách hàng đồng thời giúp tiết kiệm chi phí cho doanh nghiệp.",
+    "feature1": {
+      "title": "Giải pháp xác minh danh tính kỹ thuật số hoàn chỉnh",
+      "child0_title": "Nhận diện ký tự - OCR",
+      "child0_desc": "Công nghệ OCR dựa trên AI đọc và trích xuất các thông tin trên giấy tờ tuỳ thân, giúp tự động hoá quy trình điền thông tin của người dùng, rút ngắn thời gian nhập liệu, giảm thiểu sai sót và mang lại sự hài lòng cho khách hàng.",
+      "child1_title": "So khớp khuôn mặt",
+      "child1_desc": "Công nghệ nhận dạng khuôn mặt và so khớp khuôn mặt dựa trên AI sẽ xác minh danh tính một cách chính xác dựa vào ảnh selfie và ảnh trên giấy tờ tuỳ thân.",
+      "child2_title": "Chống gian lận",
+      "child2_desc": "Xây dựng nhiều lớp tự động phát hiện gian lận và giả mạo dựa trên AI, đáp ứng các tiêu chuẩn cao nhất độ tin cậy trong nhiều lĩnh vực như tài chính, ngân hàng, bảo hiểm, mạng viễn thông..."
+    },
+    "feature2": {
+      "title": "Xử lý các yêu cầu xác minh danh tính cho AML và KYC",
+      "child_title": "Đáp ứng các nghĩa vụ pháp lý và làm hài lòng khách hàng của bạn",
+      "child_desc0": "Bạn không cần phải thỏa hiệp về trải nghiệm người dùng để đáp ứng các yêu cầu xác minh danh tính của các quy định KYC và AML.",
+      "child_desc1": "CVS InstaKYC giúp bạn cân bằng cả hai ưu tiên với thiết kế lấy người dùng làm trung tâm, tăng thêm độ mượt cho các khu vực mà bạn cần hỏi khách hàng cung cấp thêm dữ liệu để xác minh danh tính của họ. Ví dụ: SDK độc đáo của CVS InstaKYC, bao gồm phát hiện ánh sáng chói và mờ, cung cấp phản hồi trong thời gian thực để giúp người dùng chỉ gửi hình ảnh chất lượng cao để xác minh tài liệu. OCR Autofill của chúng tôi trích xuất dữ liệu từ tài liệu nhận dạng của họ và sử dụng nó để tự động điền trước biểu mẫu đăng ký, vì vậy họ không cần phải gõ. Và SDK của chúng tôi hoạt động trên tất cả các nền tảng, từ máy tính để bàn đến máy tính bảng và điện thoại thông minh để người dùng có thể tích hợp vào mọi sản phẩm của họ.",
+      "child_desc2": "Không có gì ngạc nhiên khi tỷ lệ chuyển đổi khách hàng của bạn tăng lên đáng kể sau khi tích hợp giải pháp của chúng tôi."
+    },
+    "feature3": {
+      "child_title": "Giải pháp tuỳ chỉnh phù hợp với nhiều cấp độ tiêu chuẩn về rủi ro",
+      "child_desc0": "Xây dựng luồng đăng ký mà phù hợp với doanh nghiệp của bạn. Khi nói đến các yêu cầu xác minh danh tính cho việc tuân thủ KYC và AML, bạn cần một giải pháp dựa trên rủi ro có thể phù hợp với kế hoạch rộng hơn của bạn để giải quyết các quy định này. Chúng tôi đã tạo ra các cấu hình phù hợp cho nền tảng xác minh danh tính của chúng tôi, vì vậy bạn có thể điều chỉnh CVS InstaKYC để tìm sự cân bằng giữa sự thuận tiện và bảo mật để phù hợp với mức độ rủi ro mà bạn cảm thấy yên tâm tuỳ theo mức độ rủi ro của hồ sơ cá nhân của người dùng.",
+      "child_desc1": "Ví dụ: Bạn có thể sử dụng giải pháp phát hiện sự sống (Liveness) qua video selfie để chắc chắn người đang thực hiện xác minh là người thật. Hoặc với mức độ tin cậy cao hơn nữa, bạn có thể yêu cầu quá trình xác minh danh tính được thực hiện qua video call 1-1 với nhân viên của bạn."
+    },
+    "feature4": {
+      "child_title": "Giảm chi phí hoạt động và tăng quy mô nhanh hơn bao giờ hết",
+      "child_desc0": "CVS InstaKYC giúp cung cấp giải pháp tự động hoá dựa trên AI giúp cắt giảm chi phí vận hành và tiết kiệm rất nhiều thời gian so với thực hiện thủ công.",
+      "child_desc1": "Bạn có thể nhanh chóng hoặc giảm quy mô một cách linh hoạt theo kế hoạch kinh doanh của doanh nghiệp bạn."
+    }
+  },
+  "gttt": {
+    "banner.title": "Nhận dạng Giấy tờ tuỳ thân",
+    "banner.explain": "Giải pháp nhận dạng và tự động trích xuất thông tin từ nhiều loại giấy tờ tùy thân với tốc độ nhanh, độ chính xác cao và chi phí tối ưu, giúp các doanh nghiệp xử lý nhanh chóng hàng triệu tài liệu và mang đến sự hài lòng cho khách hàng.",
+    "feature1": {
+      "title": "Tại sao nên sử dụng sản phẩm CVS OCR",
+      "child_title": "Nhận dạng và trích xuất thông tin từ nhiều loại giấy tờ tùy thân",
+      "child_desc0": "Trình đọc OCR của chúng tôi có khả năng trích xuất chính xác các thông tin từ nhiều loại giấy tờ tùy thân khác nhau:",
+      "child_desc1": "- Căn cước công dân.",
+      "child_desc2": "- Chứng minh nhân dân loại mới.",
+      "child_desc3": "- Chứng minh nhân dân loại cũ.",
+      "child_desc4": "- Hộ chiếu theo chuẩn quốc tế, nhận dạng được cả Hộ chiếu Việt Nam và quốc tế.",
+      "child_desc5": "- Giấy phép lái xe.",
+      "child_desc6": "Ngoài các loại giấy tờ trên được hỗ trợ sẵn, chúng tôi có thể huấn luyện AI của chúng tôi nhận dạng các loại giấy tờ, tài liệu khác của bạn."
+    },
+    "feature2": {
+      "child_title": "Tốc độ xử lý nhanh và độ tin cậy cao",
+      "child_desc0": "Sản phẩm của chúng tôi là một trong các sản phẩm có tốc độ trích xuất thông tin nhanh nhất hiện nay, dưới 2s với bản CPU và dưới 0.7s với bản GPU, có thể giúp các doanh nghiệp xử lý hàng triệu tài liệu một cách nhanh chóng.",
+      "child_desc1": "Sản phẩm OCR của chúng tôi được các khách hàng đánh giá có độ chính xác trích xuất thông tin trên 95%, và là một trong những sản phẩm có độ chính xác cao nhất hiện nay.",
+      "child_desc2": "CVS OCR có khả năng xử lý ngay cả các trường hợp khó như ảnh bị xoay, ảnh chất lượng thấp, ảnh mất góc...",
+      "child_desc3": "Sản phẩm của chúng tôi còn hỗ trợ khả năng tự động phát hiện giấy tờ giả mạo bằng AI."
+    },
+    "feature3": {
+      "title": "Mang lại lợi ích vượt trội so với xử lý thủ công bằng con người",
+      "child_title": "Tăng tốc quy trình số hóa",
+      "child_desc0": "CVS OCR với khả năng xử lý tự động, nhanh chóng, chính xác hàng triệu tài liệu, giúp các doanh nghiệp tiết kiệm rất nhiều thời gian xử lý giấy tờ và tránh sai sót của con người khi đọc thông tin từ giấy tờ tùy thân rồi nhập lên hệ thống trong quy trình thủ công."
+    },
+    "feature4": {
+      "child_title": "Nâng cao trải nghiệm và độ hài lòng của khách hàng",
+      "child_desc0": "Nhận thông tin từ trình đọc OCR của CVS sau đó tự động điền thông tin vào các biểu mẫu để rút ngắn thời gian thao tác của khách hàng, khiến quy trình đăng ký thông tin của khách hàng diễn ra nhanh chóng, mang lại sự hài lòng cho khách hàng."
+    },
+    "feature5": {
+      "child_title": "Giảm chi phí hoạt động và tăng quy mô nhanh hơn bao giờ hết",
+      "child_desc0": "CVS OCR giúp các doanh nghiệp cắt giảm chi phí nhân sự, chi phí vận hành và tiết kiệm rất nhiều thời gian so với thực hiện thủ công.",
+      "child_desc1": "Bạn có thể nhanh chóng tăng hoặc giảm quy mô một cách linh hoạt theo kế hoạch kinh doanh của doanh nghiệp bạn mà không bị phụ thuộc vào quy trình tuyển dụng nhân sự rất tốn kém và mất thời gian.",
+      "child_desc2": "Sản phẩm của chúng tôi là một trong số sản phẩm có giá tốt nhất hiện nay."
+    }
+  },
+  "camera": {
+    "banner.title": "AI Camera",
+    "banner.explain": "AI Camera là giải pháp tích hợp, cung cấp hệ thống camera thông minh sử dụng trí tuệ nhân tạo tự động nhận dạng, phát hiện sự kiện, hành vi một cách chính xác… Nhằm đáp ứng các nhu cầu về kiểm soát an ninh, phân tích dữ liệu và cung cấp thông tin cho các cá nhân, doanh nghiệp, tổ chức,…",
+    "feature3": {
+      "title": "Giải pháp an ninh kỹ thuật số",
+      "child0_title": "Chấm công, điểm danh khuôn mặt",
+      "child0_desc": "Công nghệ OCR dựa trên AI đọc và trích xuất các thông tin trên giấy tờ tuỳ thân, giúp tự động hoá quy trình điền thông tin của người dùng, rút ngắn thời gian nhập liệu, giảm thiểu sai sót và mang lại sự hài lòng cho khách hàng.",
+      "child1_title": "Giám sát người ra vào thang máy, tòa nhà",
+      "child1_desc": "Công nghệ nhận dạng khuôn mặt và so khớp khuôn mặt dựa trên AI sẽ xác minh danh tính một cách chính xác dựa vào ảnh selfie và ảnh trên giấy tờ tuỳ thân.",
+      "child2_title": "Xác định biển số, lưu lượng xe",
+      "child2_desc": "Xây dựng nhiều lớp tự động phát hiện gian lận và giả mạo dựa trên AI, đáp ứng các tiêu chuẩn cao nhất độ tin cậy trong nhiều lĩnh vực như tài chính, ngân hàng, bảo hiểm, mạng viễn thông..."
+    },
+    "feature4": {
+      "title": "Các ứng dụng thực tế",
+      "explain": " ",
+      "child0_title": "Nhận diện khuôn mặt",
+      "child0_desc": " ",
+      "child1_title": "Cảnh báo cháy",
+      "child1_desc": " ",
+      "child2_title": "Cảnh báo người hút thuốc",
+      "child2_desc": " ",
+      "child3_title": "Cảnh báo vũ khí",
+      "child3_desc": " ",
+      "child4_title": "Thống kê người",
+      "child4_desc": " ",
+      "child5_title": "Phân loại giới tính, lứa tuổi",
+      "child5_desc": " "
+    }
+  },
+  "contact": {
+    "title": "Liên hệ với chúng tôi",
+    "description": "Chúng tôi luôn sẵn lòng giúp đỡ với bất kỳ yêu cầu nào. Chỉ cần điền vào biểu mẫu và chúng tôi sẽ liên lạc với bạn ngay.",
+    "name": "Họ và tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "message": "Tin nhắn",
+    "company_name": "Tên công ty",
+    "name.message": "Vui lòng nhập họ và tên",
+    "email.message": "Vui lòng nhập email",
+    "phone.message": "Vui lòng nhập số điện thoại",
+    "message.message": "Vui lòng nhập lời nhắn",
+    "care_about": {
+      "label": "Chúng tôi có thể giúp đỡ gì cho bạn?",
+      "placeholder": "Chọn nội dung",
+      "message": "Vui lòng chọn nội dung",
+      "option0": "Tôi muốn trao đổi về các sản phẩm của Computer Vision Vietnam",
+      "option1": "Tôi muốn một bản demo sản phẩm",
+      "option2": "Tôi là khách hàng và cần hỗ trợ",
+      "option3": "Tôi muốn làm việc tại Computer Vision Vietnam",
+      "option4": "Tôi muốn là đối tác của Computer Vision Vietnam",
+      "option5": "Lý do khác",
+      "option6": "Tôi muốn tạo tài khoản dùng thử CVS Vision API"
+    },
+    "address": "Địa chỉ"
+  },
+  "noti": {
+    "success.message": "Chúng tôi sẽ liên hệ tới bạn sớm nhất",
+    "fail.message": "Vui lòng kiểm tra lại thông tin và thử lại",
+    "fail.message1": "Vui lòng điển đầy đủ thông tin yêu cầu"
+  },
+  "partner": {
+    "feature1.title": "CVS giúp bạn mở rộng quy mô kinh doanh với giải pháp thị giác máy tính hàng đầu",
+    "feature1.explain": "Chương trình đối tác của CVS mang đến cho bạn những công cụ, chỉ dẫn và hỗ trợ tận tâm, giúp bạn mang lại giải pháp tốt nhất cho khách hàng",
+    "feature2.title": "Đối tác hợp tác với CVS"
+  },
+  "seo": {
+    "title_page21": "Nhận diện ký tự - OCR | CVS",
+    "title_page211": "Giấy tờ tùy thân, Hộ chiếu tiếng Việt, Giấy phép lái xe | CVS",
+    "title_page214": "Giấy đăng ký xe | CVS",
+    "title_page215": "Giấy đăng kiểm xe | CVS",
+    "title_page216": "Biển số xe | CVS",
+    "title_page217": "Giấy khai sinh | CVS",
+    "title_page218": "Giấy đăng ký doanh nghiệp | CVS",
+    "title_page219": "Dữ liệu dạng bảng | CVS",
+    "title_page2110": "Hộ chiếu quốc tế | CVS",
+    "title_page2111": "Myanmar ID Card | CVS",
+    "title_page2112": "Cambodia ID Card | CVS",
+    "title_page2113": "Nhận diện văn bản | CVS",
+    "title_page2114": "Philippines ID Card | CVS",
+    "title_page22": "Nhận diện khuôn mặt | CVS",
+    "title_page221": "So khớp khuôn mặt | CVS",
+    "title_page222": "Tìm kiếm khuôn mặt | CVS",
+    "title_page223": "Tạo ảnh đại diện | CVS",
+    "title_page224": "Phân tích khuôn mặt | CVS",
+    "title_page225": "Phân cụm khuôn mặt | CVS",
+    "title_page23": "Nhận diện hình ảnh | CVS",
+    "title_page231": "Cắt ảnh thông minh | CVS",
+    "title_page232": "Phân tích hình ảnh | CVS",
+    "title_page31": "eKYC - Định danh khách hàng | CVS",
+    "title_page32": "Insurtech  | CVS",
+    "title_page33": "Xuất bản nội dung | CVS",
+    "title_page51": "Về chúng tôi | CVS",
+    "title_page52": "Liên hệ | CVS"
+  }
+}

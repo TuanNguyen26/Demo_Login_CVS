@@ -1,0 +1,76 @@
+@font-face {
+  font-family: SFProDisplay;
+  src: url("./fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src: url("./fonts/SFProDisplay-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src: url("./fonts/SFProDisplay-Semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SFProText;
+  src: url("./fonts/SFProText-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+  font-weight: 400;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "SFProText", sans-serif !important;
+  padding: 0;
+  margin: 0;
+  color: #000 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.34);
+}
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}

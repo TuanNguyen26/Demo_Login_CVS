@@ -1,0 +1,92 @@
+@faq: faq;
+
+.@{faq}-wrapper {
+  min-height: 600px;
+  overflow: hidden;
+  // background: #f5f6f9;
+
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    color: #000;
+    font-weight: 600;
+    background: #fff;
+  }
+  .ant-collapse-borderless
+    > .ant-collapse-item
+    > .ant-collapse-content
+    > .ant-collapse-content-box {
+    padding: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    background: #f5f6f9;
+  }
+
+  .@{faq} {
+    height: 100%;
+    padding: 80px 24px;
+
+    img {
+      width: 100%;
+    }
+
+    ul {
+      margin: 16px;
+      > li {
+        margin-left: 28px;
+      }
+    }
+
+    > .title-wrapper {
+      text-align: center;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 38px;
+      margin-bottom: 60px;
+      font-family: "SFProDisplay";
+    }
+
+    &-block {
+      padding: 0 12px;
+      display: inline-block;
+      text-align: left;
+      min-height: 200px;
+      margin-bottom: 24px;
+      img {
+        width: 100%;
+      }
+
+      &-wrapper {
+        position: relative;
+        height: 100%;
+        top: 25%;
+        padding: 20px 0;
+      }
+
+      &.queue-anim-leaving {
+        position: relative !important;
+      }
+
+      &-icon {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+      }
+
+      &-title {
+        line-height: 22px;
+        margin: 10px auto;
+        font-size: 18px;
+      }
+      &.block-2 {
+        .ant-card-body {
+          height: 228px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{faq}-wrapper {
+    min-height: 880px;
+  }
+}

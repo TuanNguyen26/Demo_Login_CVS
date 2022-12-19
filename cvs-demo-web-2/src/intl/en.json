@@ -1,0 +1,375 @@
+{
+  "meta.description": "Computer Vision Vietnam - Computer Vision technology for businesses",
+  "sign_in": "Sign In",
+  "common": {
+    "button.trial": "TRY DEMO",
+    "button.contact": "Contact",
+    "button.more": "See more",
+    "button.see_all": "VIEW ALL",
+    "button.send": "SEND",
+    "contact.text": "Please contact us for advice and support",
+    "contact.partner": "Become our partner",
+    "text.download": "Download",
+    "text.technology": "Technology stack",
+    "address1": "6th Floor, Cuc Ban Do Building, 14 Phao Dai Lang, Ward Lang Thuong, Dong Da District, Ha Noi City, Vietnam",
+    "address2": "18H Cong Hoa, Ward 4, Tan Binh District, Ho Chi Minh City, Vietnam",
+    "post.featured": "Featured articles",
+    "post.recent": "Recent articles"
+  },
+  "header": {
+    "home": "Home",
+    "solution": {
+      "title": "Solutions",
+      "child0": "Face Recognition",
+      "child1": "OCR",
+      "child2": "AI Camera",
+      "child3": "Web & Mobile Development"
+    },
+    "product": {
+      "title": "Products",
+      "child0": "eKYC",
+      "child1": "ID cards recognition",
+      "child2": "License plate recognition",
+      "child3": "Face authentication",
+      "child4": "Face analysis"
+    },
+    "resource": {
+      "title": "Resources",
+      "child0": "Blog"
+    },
+    "developer": {
+      "title": "Developers",
+      "child": "API documentation"
+    },
+    "company": {
+      "title": "Company",
+      "child0": "Contact",
+      "child1": "Partnership program"
+    },
+    "sign_in": "Sign In"
+  },
+  "footer": {
+    "address1": "Headquarter:",
+    "address2": "HCM Office:",
+    "copyright": "Computer Vision Vietnam Technologies., Jsc"
+  },
+  "home": {
+    "banner": "Apply Machine Learning techniques in Computer Vision to provide automation solutions for businesses with optimal cost",
+    "content0": {
+      "title": "Our solutions",
+      "explain": "Apply Machine Learning algorithms and technologies using Deep Learning technology in Computer Vision",
+      "child0_title": "Face recognition",
+      "child0_desc": "Optimize artificial intelligence models to provide solutions such as facial recognition, age analysis, emotional analysis for one or more faces in photos or videos.",
+      "child1_title": "OCR",
+      "child1_desc": "Automatically recognize text from images in a variety of documents, allowing you to process millions of documents quickly and automate your workflow.",
+      "child2_title": "AI Camera",
+      "child2_desc": "Conducting research on efficient facial recognition solution via camera.",
+      "child3_title": "Web & Mobile apps Development",
+      "child3_desc": "Provide optimal solutions, help to realize business ideas quickly or accelerate the digital transformation process of businesses."
+    },
+    "content1": {
+      "title": "Our products",
+      "explain": "Our experienced and passionate team is constantly working on practical applications to accelerate the digital transformation process and automate businesses’ processes.",
+      "child0_title": "eKYC",
+      "child0_desc": "Combine OCR technology and facial recognition to automatically authenticate faces with photos on identification documents, along with anti-fake techniques to provide a complete digital identity verification solution.",
+      "child1_title": "ID cards recognition",
+      "child1_desc": "Applying OCR technology to identify and extract information from a variety of identification documents allows businesses to automatically process millions of documents quickly and with high accuracy.",
+      "child2_title": "License plate recognition",
+      "child2_desc": "Apply OCR technology to identify license plates, apply to automatic toll collection and parking management solutions.",
+      "child3_title": "Face searching",
+      "child3_desc": "Apply face recognition technology and high-speed face search along with anti-fake techniques to provide a reliable face authentication solution.",
+      "child4_title": "Face analysis",
+      "child4_desc": "Automatically identify facial features such as emotion, age, gender and facial features.",
+      "child5_title": "Face matching",
+      "child5_desc": "Compare two faces and return the result with the same person or not.",
+      "child6_title": "Face Clustering",
+      "child6_desc": "Identify the same faces in a photo set.",
+      "child7_title": "Web & Mobile Apps Development",
+      "child7_desc": "Use Agile process and the latest technology platforms to quickly realize business ideas and digital transformation of businesses with optimal time and cost.",
+      "child8_title": "And many other products",
+      "child8_desc": "We are constantly researching new products in the field of AI and Big Data. Stay tuned if you are interested in our products."
+    },
+    "feature1": {
+      "title": "Fast, easy integration",
+      "explain": "CVS Vision API provides fast, flexible integration with Restful APIs on both Cloud and On-Premise platforms, suitable for the needs of all businesses, from startups, small and medium enterprises to big businesses.",
+      "child_title": "Cloud APIs - Cloud Integrated  services",
+      "child_desc0": "Integrate quickly with our service and deliver to your customers in just a few hours.",
+      "child_desc1": "Pay as much as you use, making costs flexible and optimal depending on your needs and your business situation.",
+      "child_desc2": "Always use our latest technology."
+    },
+    "feature2": {
+      "child_title": "On-Premise - Client server settings",
+      "child_desc0": "All data is processed inside your data center. Your business has right to control over all input and output data.",
+      "child_desc1": "We customize and implement processes and systems to comply with internal corporate standards and local laws on data security and privacy protection."
+    },
+    "content10": {
+      "title": "Trusted by the customers from many countries",
+      "explain": "We have been helping businesses from many countries, operating in various fields such as finance, human resources, retail, IoT ... in realizing business ideas and speeding up their digital conversion process with optimal process and cost."
+    },
+    "feature45": {
+      "title": "Media Coverage"
+    }
+  },
+  "face": {
+    "banner.title": "Face recognition",
+    "banner.explain": "The facial recognition system is a computer application that automatically identifies someone from a digital photo or a video frame from a video source. One of the ways to do this is to compare pre-selected face features from the image and a face database.",
+    "content1": {
+      "title": "Our products",
+      "explain": "Our experienced and passionate team is constantly working on practical applications to accelerate the digital transformation process and automate businesses’ processes.",
+      "child0_title": "eKYC",
+      "child0_desc": "Combine OCR technology and facial recognition to automatically authenticate faces with photos on identification documents, along with anti-fake techniques to provide a complete digital identity verification solution.",
+      "child1_title": "Face searching",
+      "child1_desc": "Apply face recognition technology and high-speed face search along with anti-fake techniques to provide a reliable face authentication solution.",
+      "child2_title": "Face matching",
+      "child2_desc": "Compare two faces and return the result with the same person or not.",
+      "child3_title": "Face Clustering",
+      "child3_desc": "Synthesize facial recognition, face clustering, emotion analysis and attractiveness scoring technology to provide smart and automated solutions for managing image collection.",
+      "child4_title": "Emotion Analysis",
+      "child4_desc": "Recognize five types of emotions such as happiness, anger, sadness, fear and surprise.",
+      "child5_title": "Age Recognition",
+      "child5_desc": "Allow age recognition by high-accuracy facial analysis.",
+      "child6_title": "Gender Recognition",
+      "child6_desc": "High-accuracy gender recognition by facial analysis.",
+      "child7_title": "Attractiveness scoring",
+      "child7_desc": "Give score to images by analyzing their attractiveness.",
+      "child8_title": "Facial Landmarks",
+      "child8_desc": "Locate key facial attributes like hair, eyes, nose, and chin."
+    },
+    "feature4": {
+      "title": "Use Cases",
+      "explain": "With innovative Artificial Intelligence technology, Facial Recognition APIs from Computer Vision accelerate customer identification process, providing automation solutions for businesses with optimal cost.",
+      "child0_title": "eKYC",
+      "child0_desc": "Seamless and secure online identity verification, powered by innovative technology.",
+      "child1_title": "Face Verification",
+      "child1_desc": "Too many passwords to remember? Our swift, convenient and highly secure face verification solution is ready to simplify your whole life online.",
+      "child2_title": "Face recognition attendance",
+      "child2_desc": "Advanced solution brings seamless experience and efficiency to the workplace.",
+      "child3_title": "School Attendance Tracking",
+      "child3_desc": "Complete automatic solution to keep track of student’s attendance.",
+      "child4_title": "Photos management",
+      "child4_desc": "Combine face clustering, emotion analysis and attractiveness scoring to make management applications with outstanding features.",
+      "child5_title": "Makeup apps",
+      "child5_desc": "Apply Face Landmarks technology to locate key facial attributes then create desired makeover effects. A hairstyle makeover application, for instance, can help to change the color tint of a user’s hair."
+    }
+  },
+  "ocr": {
+    "banner.title": "Optical character recognition - OCR",
+    "banner.explain": "Recognize text and extract precise data from images in documents, allowing business to digitize millions of documents and automate workflow quickly. OCR solution from CVS is easy to apply, customize and integrate into many businesses.",
+    "feature1": {
+      "title": "Our products",
+      "child_title": "ID cards recognition",
+      "child_desc0": "Applying OCR technology to identify and extract information from a variety of identification documents allows businesses to automatically process millions of documents quickly and with high accuracy.",
+      "child_desc1": "OCR solution from CVS is adept at extracting information from many different types of identification documents such as: Identity Card, Passport, Driver’s License. In addition, we can train our AI to identify other types of documents as required."
+    },
+    "feature3": {
+      "child_title": "Scanned documents recognition",
+      "child_desc0": "Our solution is capable of processing large amount of documents with lightning speed and high accuracy.",
+      "child_desc1": "Moreover, solution from CVS allows to restore the format and layout in documents"
+    },
+    "feature2": {
+      "child_title": "License plate recognition",
+      "child_desc0": "Apply OCR technology to identify license plates, apply to automatic toll collection and parking management solutions."
+    },
+    "feature4": {
+      "title": "Use Cases",
+      "explain": "With innovative Artificial Intelligence technology, Facial Recognition APIs from Computer Vision accelerate customer identification process, providing automation solutions for businesses with optimal cost.",
+      "child0_title": "eKYC",
+      "child0_desc": "Combine OCR technology and facial recognition to automatically authenticate faces with photos on identification documents, along with anti-fake techniques to provide a complete digital identity verification solution.",
+      "child1_title": "ID cards recognition",
+      "child1_desc": "Applying OCR technology to identify and extract information from a variety of identification documents allows businesses to automatically process millions of documents quickly and with high accuracy.",
+      "child2_title": "Automatic toll collection",
+      "child2_desc": "Vehicles no longer have to stop for paying toll, this helps to save the travel time and brings convenient experience to the drivers.",
+      "child3_title": "Parking management",
+      "child3_desc": "With Facial Recognition solution, your vehicles are protected from theft and parking fees will be calculated automatically. Parking cards are no longer needed."
+    }
+  },
+  "web": {
+    "banner.title": "Web & Mobile apps Development",
+    "banner.explain0": "CVS has helped companies of all sizes, from startups to leading businesses, to design and develop web and mobile apps that transform their business.",
+    "banner.explain1": "With shared passion and exceptionally talented designers, engineers and consultants, CVS exploit cutting-edge technology to deliver scalable products.",
+    "feature1": {
+      "title": "Ours services",
+      "child_title": "MOBILE APPLICATIONS",
+      "child_explain": "Our creative development process helps to build cross-platform applications with optimal time and cost",
+      "child_desc0": "We choose React Native - a revolutionary framework created by Facebook in 2015 to develop mobile applications. React Native allows us to build an iOS and Android app from a single codebase. Using this framework cuts cost and time to build cross-platform applications by more than 50% without losing quality."
+    },
+    "feature2": {
+      "child_title": "WEB APPLICATIONS",
+      "child_explain": "We develop modern web applications of all scales using innovative technology",
+      "child_desc0": "With over 10 years of experience in web application development, our team can build on your ideas, whatever they are, then deliver products on time and within budget."
+    },
+    "feature3": {
+      "child_title": "UI/UX DESIGN",
+      "child_explain": "We design and develop attractive applications which is enjoyable to use",
+      "child_desc0": "Our proven design process assures that every feature is built to fulfil your requirements."
+    },
+    "feature4": {
+      "child_title": "AGILE METHODOLOGY",
+      "child_explain": "Our method not only reduces product development cycle time but also assures to reach the scale-up potential of business",
+      "child_desc0": "Agile is an iterative approach to software development that helps teams deliver value to their customers faster in small, but consumable, increments, instead of betting on final launch. It is designed for responding to change quickly."
+    },
+    "feature5": {
+      "title": "Our products",
+      "child0_title": "Hogar Oficina",
+      "child0_desc0": "Office and meeting management system",
+      "child0_desc1": "- Meeting room management",
+      "child0_desc2": "- Meeting management",
+      "child0_desc3": "- Devices management",
+      "child1_title": "RiseSet Journal",
+      "child1_desc0": "- Catch and save the most beautiful moment of a day - Sunrise and Sunset",
+      "child1_desc1": "- Track how many sunrise & sunset moments you’ve admired",
+      "child1_desc2": "- Sun effects powered by Artificial Intelligence",
+      "child1_desc3": "- Share photos with your own signature",
+      "child3_title": "ATS Solar power capacity management and forecast system.",
+      "child3_desc0": "- User management",
+      "child3_desc1": "- Solar plant management",
+      "child3_desc2": "- Power inverter management",
+      "child3_desc3": "- Forecast solar power capacity",
+      "child7_title": "CIAS iReport",
+      "child7_desc0": "Daily revenue reporting system for CIAS",
+      "child7_desc1": "- Many types of reports with intuitive visualizations",
+      "child7_desc2": "- Export Excel report",
+      "child7_desc3": "- User management, using RBAC authorization"
+    }
+  },
+  "ekyc": {
+    "banner.title": "eKYC",
+    "banner.explain0": "eKYC is an online customer identification method that requires no face-to-face meetings.",
+    "banner.explain1": "eKYC helps to reduce human resources, provide a better experience for customers and save costs for Business.",
+    "feature1": {
+      "title": "Complete digital identity verification solution",
+      "child0_title": "Character recognition - OCR",
+      "child0_desc": "OCR technology based on AI reads and extracts information on identification documents, helps automate the process of filling information of users, shortening the time of inputting, reducing errors and bringing satisfaction to users. customer.",
+      "child1_title": "Face matching",
+      "child1_desc": "Face recognition and AI-based face matching technology will verify identity accurately based on selfies and ID photos.",
+      "child2_title": "Fraud prevention",
+      "child2_desc": "Build multi-layer automated fraud detection and fraud based on AI, meet the highest standards of reliability in many fields such as finance, banking, insurance, telecommunications networks ..."
+    },
+    "feature2": {
+      "title": "Handle identity verification requests for AML and KYC",
+      "child_title": "Meet your legal obligations and delight your customers",
+      "child_desc0": "You do not need to compromise user experience to meet the identity verification requirements of KYC and AML regulations.",
+      "child_desc1": "InstaKYC CVS helps you balance both priorities with user-centric design, adding smoothness to the areas where you need to ask customers for more data to verify their identity. For example, CVS InstaKYC's unique SDK, including glare and blur detection, provides real-time feedback to help users send only high quality images for document verification. Our OCR Autofill extracts data from their identification documents and uses it to automatically pre-fill the registration form, so they don't need to type. And our SDK works on all platforms, from desktops to tablets and smartphones, so users can integrate it into all their products.",
+      "child_desc2": "Not surprisingly, your customer conversion rate will increase significantly after integrating our solution."
+    },
+    "feature3": {
+      "child_title": "Customized solutions fit many standard levels of risk",
+      "child_desc0": "Build a subscription flow that is right for your business. When it comes to identity verification requirements for KYC and AML compliance, you need a risk-based solution that can fit your broader plan to address these regulations. We have created the right profiles for our identity verification platform, so you can adjust CVS InstaKYC to find the right balance between convenience and security to match the level of risk. that you feel comfortable with depending on the risk level of the user's profile.",
+      "child_desc1": "For example: You can use the Liveness solution via selfie video to make sure the person performing verification is real. With a higher level of reliability, you can request that the identity verification process be done via one-to-one video calls to your employees."
+    },
+    "feature4": {
+      "child_title": "Reduce operating costs and scale up faster than ever",
+      "child_desc0": "CVS InstaKYC provides AI-based automation solution, helping businesses reduce operating costs and save a lot of time compared to manual process.",
+      "child_desc1": "With our solution, you can dynamically scale up or down your business as planned."
+    }
+  },
+  "gttt": {
+    "banner.title": "ID cards recognition",
+    "banner.explain": "Applying OCR technology to identify and extract information from a variety of identification documents allows businesses to automatically process millions of documents quickly and with high accuracy.",
+    "feature1": {
+      "title": "Why choose us?",
+      "child_title": "Identify and extract information from a variety of identification documents",
+      "child_desc0": "OCR solution from CVS is adept at extracting information from many different types of identification documents such as:",
+      "child_desc1": " ",
+      "child_desc2": "- Identity Card",
+      "child_desc3": "- Passport",
+      "child_desc4": "- Driver’s License.",
+      "child_desc5": " ",
+      "child_desc6": "In addition, we can train our AI to identify other types of documents as required."
+    },
+    "feature2": {
+      "child_title": "A fast and highly reliable solution",
+      "child_desc0": "CVS offers one of the fastest information extraction products, processing 1 extraction in less than 2 seconds on the CPU version and less than 0.7 seconds with the GPU version, which can help businesses process millions of documents remarkably fast.",
+      "child_desc1": "With over 95% accuracy, which has been confirmed by our customers, our solution is one of the most reliable products in the market.",
+      "child_desc2": "Moreover, CVS OCR is capable of handling even difficult cases such as rotated images, poor-quality images and images without corners.",
+      "child_desc3": "We also support automatic detection of counterfeit documents by AI."
+    },
+    "feature3": {
+      "title": "Provide outstanding benefits compared to manual process",
+      "child_title": "Speed up the digitization process",
+      "child_desc0": "The manual process requires humans to read information from personal papers then upload it into the system. CVS OCR helps businesses to replace this time-consuming and error-prone procedure with the ability to process automatically, quickly and accurately millions of documents."
+    },
+    "feature4": {
+      "child_title": "Improve customer satisfaction",
+      "child_desc0": "Simply receive information from CVS OCR then automatically fill in the forms, helping customers to go through the registration process fast while bringing a seamless experience to them."
+    },
+    "feature5": {
+      "child_title": "Reduce operating costs and scale up faster than ever",
+      "child_desc0": "CVS OCR helps businesses reduce labor costs, operating costs and save a lot of time compared to manual process. With our solution, you can dynamically scale up or down your business as planned without depending on a costly and time consuming hiring process. Not only does CVS provide the best OCR solution but CVS also offers one of the most competitive prices for this product.",
+      "child_desc1": " ",
+      "child_desc2": " "
+    }
+  },
+  "camera": {
+    "banner.title": "AI Camera",
+    "banner.explain": "AI Camera is an integrated solution, providing intelligent camera systems using artificial intelligence to automatically recognize, detect events and behaviors with high accuracy. AI Camera solution from CVS meets the needs for security control, data analysis and information from individuals, businesses and organizations.",
+    "feature3": {
+      "title": "Giải pháp an ninh kỹ thuật số",
+      "child0_title": "Chấm công, điểm danh khuôn mặt",
+      "child0_desc": "Công nghệ OCR dựa trên AI đọc và trích xuất các thông tin trên giấy tờ tuỳ thân, giúp tự động hoá quy trình điền thông tin của người dùng, rút ngắn thời gian nhập liệu, giảm thiểu sai sót và mang lại sự hài lòng cho khách hàng.",
+      "child1_title": "Giám sát người ra vào thang máy, tòa nhà",
+      "child1_desc": "Công nghệ nhận dạng khuôn mặt và so khớp khuôn mặt dựa trên AI sẽ xác minh danh tính một cách chính xác dựa vào ảnh selfie và ảnh trên giấy tờ tuỳ thân.",
+      "child2_title": "Xác định biển số, lưu lượng xe",
+      "child2_desc": "Xây dựng nhiều lớp tự động phát hiện gian lận và giả mạo dựa trên AI, đáp ứng các tiêu chuẩn cao nhất độ tin cậy trong nhiều lĩnh vực như tài chính, ngân hàng, bảo hiểm, mạng viễn thông..."
+    },
+    "feature4": {
+      "title": "Use Cases",
+      "explain": " ",
+      "child0_title": "Facial Recognition",
+      "child0_desc": " ",
+      "child1_title": "Fire Warning",
+      "child1_desc": " ",
+      "child2_title": "Cigarette Smoking Detection",
+      "child2_desc": " ",
+      "child3_title": "Weapon Detection",
+      "child3_desc": " ",
+      "child4_title": "People Counting System",
+      "child4_desc": " ",
+      "child5_title": "Age and Gender Classification",
+      "child5_desc": " "
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "description": "Our team's always happy to help with any enquiries. Simply fill out the form and we'll get in touch with you shortly.",
+    "name": "Full name*",
+    "email": "Email*",
+    "phone": "Phone number*",
+    "message": "Message*",
+    "company_name": "Company name",
+    "name.message": "Please input your name",
+    "email.message": "Please input your email",
+    "phone.message": "Please input your phone number",
+    "message.message": "Please input message",
+    "care_about": {
+      "label": "How can we help?*",
+      "placeholder": "Please select",
+      "message": "Please select an option from the dropdown menu",
+      "option0": "I'd like to talk about Computer Vision Vietnam's solution",
+      "option1": "I'd like a product demo",
+      "option2": "I am a customer and need support",
+      "option3": "I want to work at Computer Vision Vietnam",
+      "option4": "I'd like to partner with Computer Vision Vietnam",
+      "option5": "Other reason",
+      "option6": "Tôi muốn tạo tài khoản dùng thử CVS Vision API"
+    },
+    "address": "Address"
+  },
+  "noti": {
+    "success.message": "We’ll get in touch with you shortly",
+    "fail.message": "Please check your information and try again",
+    "fail.message1": "Please complete the required fields"
+  },
+  "partner": {
+    "feature1.title": "Expand your enterprise with leading computer vision solution",
+    "feature1.explain": "The Computer Vision Vietnam Partner Program provides you with the tools, guidance and support to deliver the very best computer vision service for your clients.",
+    "feature2.title": "Our partner"
+  },
+  "seo": {
+    "title_page1": "eKYC - Electronics know your customer | CVS",
+    "title_page2": "ID cards recognition | CVS",
+    "title_page3": "Face recognition | CVS",
+    "title_page4": "Optical character recognition - OCR | CVS",
+    "title_page5": "CVS Partner program"
+  }
+}

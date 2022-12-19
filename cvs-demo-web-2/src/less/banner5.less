@@ -1,0 +1,132 @@
+@banner5: banner5;
+
+.@{banner5} {
+  width: 100%;
+  // height: 100vh;
+  height: 684px;
+  position: relative;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+
+  & &-page {
+    padding: 1px 0 0;
+  }
+
+  &-title {
+    font-size: 48px;
+    line-height: 1.5;
+    color: #5f9bf1;
+    margin-bottom: 8px;
+
+    &-wrapper {
+      width: 50%;
+      max-width: 550px;
+      position: relative;
+      top: 20%;
+      left: 24px;
+    }
+  }
+
+  &-explain {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  &-content {
+    font-size: 40px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    font-family: "SFProDisplay";
+  }
+
+  &-description {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 28px;
+  }
+
+  &-button-wrapper {
+    display: inline-block;
+    .@{banner5}-button {
+      height: 58px;
+      &.background-ghost {
+        background-color: #fff;
+        color: #0066ff;
+        &:hover {
+          background-color: #0066ff;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &-image {
+    overflow: hidden;
+    width: 50%;
+    max-width: 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .@{banner5} {
+    background-position: right;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{banner5} {
+    min-height: 500px;
+    height: auto;
+
+    & &-page.home-page {
+      padding-top: 1px;
+      padding-bottom: 0;
+    }
+
+    &-description {
+      padding: 0 24px;
+      text-align: left;
+    }
+
+    &-title-wrapper {
+      text-align: center;
+      position: static;
+      width: 100%;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      left: 0;
+      top: 0;
+    }
+
+    &-title {
+      font-size: 32px;
+    }
+
+    &-explain {
+      font-size: 18px;
+    }
+
+    &-content {
+      font-size: 34px;
+      padding: 0 24px;
+      text-align: left;
+    }
+
+    &-image {
+      position: inherit;
+      width: 100%;
+      top: 0;
+      right: 0;
+      margin: 0;
+    }
+  }
+}
